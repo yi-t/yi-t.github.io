@@ -1,0 +1,48 @@
+h1 { font-size: 260%; font-weight:normal; }
+h2 { font-size: 180%; font-weight:normal; }
+h3 { font-size: 120%; font-weight:normal; }
+
+body {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+    margin-bottom: 75px;
+	line-height: 1.25;
+	font-size: 125%;
+ 	font-family: Palatino;
+}
+
+hr { /*horizontal line*/
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+}
+
+p {
+  padding: 0px 0px 10px 0px;
+}
+
+a:link{color:#0000FF;}
+a:visited{color:#0000FF;}
+a:hover{text-decoration:underline;}
+
+header h1{
+	display: inline;
+}
+
+#intro_container {
+	/*width:900px;*/
+	margin-left: auto;
+	margin-right: auto;
+	display: flex; /*content in column won't overflow*/
+}
+
+#intro_container img {
+	display: block;
+	float: left;
+	vertical-align: middle;
+	padding-right: 30px;
+	padding-bottom: 15px;
+}
