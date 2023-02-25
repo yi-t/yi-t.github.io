@@ -3,14 +3,14 @@ h2 { font-size: 180%; font-weight:normal; }
 h3 { font-size: 120%; font-weight:normal; }
 
 body {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 75px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
     margin-bottom: 75px;
-	line-height: 1.25;
-	font-size: 125%;
- 	font-family: Palatino;
+    line-height: 1.25;
+    font-size: 125%;
+     font-family: Palatino;
 }
 
 hr { /*horizontal line*/
@@ -29,20 +29,20 @@ a:visited{color:#0000FF;}
 a:hover{text-decoration:underline;}
 
 header h1{
-	display: inline;
+    display: inline;
 }
 
 #intro_container {
-	/*width:900px;*/
-	margin-left: auto;
-	margin-right: auto;
-	display: flex; /*content in column won't overflow*/
+    /*width:900px;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; /*content in column won't overflow*/
 }
 
 #intro_container img {
-	display: block;
-	float: left;
-	vertical-align: middle;
-	padding-right: 30px;
-	padding-bottom: 15px;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    padding-right: 30px;
+    padding-bottom: 15px;
 }
